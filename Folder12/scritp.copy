@@ -1,0 +1,1 @@
+cout << "Diagnostik msg" << endl;

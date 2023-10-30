@@ -1,0 +1,10 @@
+echo -n "enter number: "
+read n 
+
+if [ $n = 0 ] 
+then
+	exit 
+else
+	find / -maxdepth 1 -iname "*.sh" | wc -l
+fi
+
